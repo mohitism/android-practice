@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:paddingTop="1dp"
+    android:paddingBottom="1dp">
+
+    <TextView
+        android:text="Music is life"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvheading"
+        android:layout_weight="0.08"
+        android:background="@android:color/black"
+        android:fadingEdge="horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:includeFontPadding="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="casual" />
+
+    <ImageView
+        android:layout_width="241dp"
+        android:layout_height="198dp"
+        app:srcCompat="@drawable/hamu"
+        android:id="@+id/ivpic"
+        android:layout_gravity="center"
+        android:fadingEdgeLength="10dp"
+        android:filterTouchesWhenObscured="true" />
+
+    <TextView
+        android:text="Jai Ho Song"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvtitle"
+        android:layout_weight="0.05"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:text="Download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bdownload"
+        android:layout_weight=".05"
+        android:layout_gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:elevation="5dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/background_dark" />
+</LinearLayout>

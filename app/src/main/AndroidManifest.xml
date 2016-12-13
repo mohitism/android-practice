@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.achilles.myapplication" >
+<uses-permission android:name="android.permission.CAMERA"></uses-permission>
+    <uses-permission android:name="android.permission.CAPTURE_VIDEO_OUTPUT"></uses-permission>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".Splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="com.example.achilles.myapplication.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Menu" android:configChanges="orientation|keyboardHidden|screenSize" >
+            <intent-filter>
+                <action android:name="com.example.achilles.myapplication.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".TextPlay" >
+
+        </activity>
+
+        <activity android:name=".Email" >
+
+        </activity>
+
+        <activity android:name=".Camera" android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".Data" >
+
+        </activity>
+        <activity android:name=".OpenedClass" >
+
+        </activity>
+
+        <activity android:name=".AboutUs" >
+            <intent-filter>
+                <action android:name="com.example.achilles.myapplication.ABOUTUS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Prefs" >
+            <intent-filter>
+                    <action android:name="com.example.achilles.myapplication.PREFS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".GFX" >
+
+        </activity>
+
+        <activity android:name=".Mybringback" >
+
+        </activity>
+
+        <activity android:name=".GFXSurface" >
+
+        </activity>
+
+        <activity android:name=".SoundStuff" >
+
+        </activity>
+
+        <activity android:name=".SoundStuff1" >
+
+        </activity>
+        <activity android:name=".Sliding" >
+
+        </activity>
+
+        <activity android:name=".Tabclass" >
+
+        </activity>
+
+        <activity android:name=".Webbased" >
+
+        </activity>
+
+        <activity android:name=".Sharedprefs" >
+
+        </activity>
+
+        <activity android:name=".Flipper" >
+
+        </activity>
+
+        <activity android:name=".asynctask" >
+
+        </activity>
+
+    </application>
+
+</manifest>
